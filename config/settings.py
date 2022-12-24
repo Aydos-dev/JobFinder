@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     # my apps
     "accounts.apps.AccountsConfig",
+    "posts.apps.PostsConfig",
 
     # 3-rd party
     "rest_framework",
