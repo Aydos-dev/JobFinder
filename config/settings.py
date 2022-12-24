@@ -155,6 +155,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 SITE_ID = 1
 
 CORS_ORIGIN_WHITELIST = (
-'http://localhost:3000',
-'http://localhost:8000',
+  'http://localhost:3000',
+  'http://localhost:8000',
 )
+
+CSRF_TRUSTED_ORIGINS = ["localhost:3000"]
