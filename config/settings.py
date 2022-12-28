@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'dj_rest_auth',
     'dj_rest_auth.registration',
     "drf_yasg",
-    "cors_headers",
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
@@ -159,4 +159,4 @@ CORS_ORIGIN_WHITELIST = (
   'http://localhost:8000',
 )
 
-CSRF_TRUSTED_ORIGINS = ["localhost:3000"]
+CSRF_TRUSTED_ORIGINS = ["https://localhost:3000"]
