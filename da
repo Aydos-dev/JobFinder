@@ -1,0 +1,5 @@
+[33m6aad7c15c628f3e86f38f2a6f3f408a7e7838ffb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Changed Category field in Post
+[33m28d499558040d0065c0eeafcf0dc8dd292fe4dfc[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Added CSRF_TRUSTED_ORIGINS to settings
+[33m911772db2616eba1ed1bbb76c64753fc394a32e3[m Added Schema and Core-Headers
+[33ma1d0e126d05c0635119bd11400f2256e0278c835[m Added Post with API and permissions
+[33m1c707a3e5f10ce9d5d30b8a3805ffc63ff8e15e8[m Initial commit with CustomUser API
