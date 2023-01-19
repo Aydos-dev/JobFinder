@@ -5,11 +5,27 @@ class Post(models.Model):
     JUSTICE = 'JUS'
     BUILDING = 'BUI'
     EDUCATION = 'EDU'
+    ROUTINE_WORK = 'ROU'
+    IT = 'IT'
+    MEDICINE = "MED"
+    AGROCULTURE = "AGR"
+    BIZNES = "BS"
+    TURIZM = "TUR"
+    TRADE = "TR"
+
 
     TYPES_OF_CATEGORY = [
         (JUSTICE, "Юстиция"),
         (BUILDING, "Строителстьво"),
-        (EDUCATION, "Образование")
+        (EDUCATION, "Образование"),
+        (ROUTINE_WORK, "Бытовая работа"),
+        (IT, "ИКТ"),
+        (MEDICINE, "Медицина"),
+        (AGROCULTURE, "Аграрное дело"),
+        (BIZNES, "Бизнес"),
+        (TURIZM, "Туризм"),
+        (TRADE, "Торговля"),
+
 ]
 
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
